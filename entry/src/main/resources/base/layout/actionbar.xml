@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:id="$+id:root_layout"
+                   ohos:width="match_parent"
+                   ohos:height="match_parent"
+                   ohos:orientation="vertical">
+
+    <DirectionalLayout
+            ohos:id="$+id:action_bar"
+            ohos:width="match_parent"
+            ohos:height="48vp"
+            ohos:orientation="horizontal"
+            ohos:background_element="black">
+
+        <Text
+                ohos:id="$+id:action_bar_tile"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:layout_alignment="vertical_center"
+                ohos:top_margin="8vp"
+                ohos:bottom_margin="8vp"
+                ohos:text_size="20fp"
+                ohos:text_color="#E5FFFFFF"
+                ohos:text="Content"/>
+
+        <Image
+                ohos:id="$+id:action_bar_menu"
+                ohos:width="108vp"
+                ohos:height="108vp"
+                ohos:layout_alignment="vertical_center|right"
+                ohos:right_margin="24vp"
+                ohos:padding="8vp"
+                ohos:image_src="$media:contact"
+                />
+    </DirectionalLayout>
+
+    <DirectionalLayout
+            ohos:id="$+id:content_layout"
+            ohos:width="match_parent"
+            ohos:height="match_parent"
+            ohos:orientation="horizontal"
+            ohos:background_element="black">
+
+        <ListContainer
+                ohos:id="$+id:list_container"
+                ohos:width="0"
+                ohos:height="match_parent"
+                ohos:weight="1"
+                ohos:left_margin="0"
+                ohos:top_margin="0"
+                ohos:right_margin="0"
+                ohos:bottom_margin="0"/>
+
+        <TableLayout
+                ohos:id="$+id:table_layout"
+                ohos:width="0"
+                ohos:height="match_parent"
+                ohos:weight="1"
+                ohos:layout_alignment="center"
+                ohos:column_count="3"
+                ohos:row_count="3">
+
+            <Text
+                    ohos:id="$+id:num_one"
+                    ohos:width="46vp"
+                    ohos:height="46vp"
+                    ohos:text_size="20fp"
+                    ohos:text_color="#FFFFFFFF"
+                    ohos:left_margin="7vp"
+                    ohos:right_margin="7vp"
+                    ohos:top_margin="2vp"
+                    ohos:text="one"/>
+
+            <Text
+                    ohos:id="$+id:num_two"
+                    ohos:text="two"
+                    ohos:width="46vp"
+                    ohos:height="46vp"
+                    ohos:text_size="20fp"
+                    ohos:text_color="#FFFFFFFF"
+                    ohos:left_margin="7vp"
+                    ohos:right_margin="7vp"
+                    ohos:top_margin="2vp"/>
+
+            <Text
+                    ohos:id="$+id:num_three"
+                    ohos:text="three"
+                    ohos:width="46vp"
+                    ohos:height="46vp"
+                    ohos:text_size="20fp"
+                    ohos:text_color="#FFFFFFFF"
+                    ohos:left_margin="7vp"
+                    ohos:right_margin="7vp"
+                    ohos:top_margin="2vp"/>
+
+            <Text
+                    ohos:id="$+id:num_four"
+                    ohos:text="four"
+                    ohos:width="46vp"
+                    ohos:height="46vp"
+                    ohos:text_size="20fp"
+                    ohos:text_color="#FFFFFFFF"
+                    ohos:left_margin="7vp"
+                    ohos:right_margin="7vp"
+                    ohos:top_margin="2vp"/>
+
+            <Text
+                    ohos:id="$+id:num_five"
+                    ohos:text="five"
+                    ohos:width="46vp"
+                    ohos:height="46vp"
+                    ohos:text_size="20fp"
+                    ohos:text_color="#FFFFFFFF"
+                    ohos:left_margin="7vp"
+                    ohos:right_margin="7vp"
+                    ohos:top_margin="2vp"/>
+
+            <Text
+                    ohos:id="$+id:num_six"
+                    ohos:text="six"
+                    ohos:width="46vp"
+                    ohos:height="46vp"
+                    ohos:text_size="20fp"
+                    ohos:text_color="#FFFFFFFF"
+                    ohos:left_margin="7vp"
+                    ohos:right_margin="7vp"
+                    ohos:top_margin="2vp"/>
+
+            <Text
+                    ohos:id="$+id:num_seven"
+                    ohos:text="seven"
+                    ohos:width="46vp"
+                    ohos:height="46vp"
+                    ohos:text_size="20fp"
+                    ohos:text_color="#FFFFFFFF"
+                    ohos:left_margin="7vp"
+                    ohos:right_margin="7vp"
+                    ohos:top_margin="2vp"/>
+
+            <Text
+                    ohos:id="$+id:num_eight"
+                    ohos:text="eight"
+                    ohos:width="46vp"
+                    ohos:height="46vp"
+                    ohos:text_size="20fp"
+                    ohos:text_color="#FFFFFFFF"
+                    ohos:left_margin="7vp"
+                    ohos:right_margin="7vp"
+                    ohos:top_margin="2vp"/>
+
+            <Text
+                    ohos:id="$+id:num_nine"
+                    ohos:text="nine"
+                    ohos:width="46vp"
+                    ohos:height="46vp"
+                    ohos:text_size="20fp"
+                    ohos:text_color="#FFFFFFFF"
+                    ohos:left_margin="7vp"
+                    ohos:right_margin="7vp"
+                    ohos:top_margin="2vp"/>
+        </TableLayout>
+    </DirectionalLayout>
+</DirectionalLayout>
